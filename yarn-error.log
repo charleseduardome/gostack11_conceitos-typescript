@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/charles/.nvm/versions/node/v12.16.1/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js add typescipt -D
+
+PATH: 
+  /Users/charles/.nvm/versions/node/v12.16.1/bin:/Users/charles/.nvm/versions/node/v12.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/charles/.zinit/polaris/bin:/Users/charles/.nvm/versions/node/v12.16.1/bin:/Users/charles/Library/Android/sdk/emulator:/Users/charles/Library/Android/sdk/tools:/Users/charles/Library/Android/sdk/tools/bin:/Users/charles/Library/Android/sdk/platform-tools:/Users/charles/Library/Android/sdk/emulator:/Users/charles/Library/Android/sdk/tools:/Users/charles/Library/Android/sdk/tools/bin:/Users/charles/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescipt: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:66975:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:140727:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141699:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141621:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
